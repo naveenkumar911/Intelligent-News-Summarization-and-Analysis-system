@@ -1,0 +1,76 @@
+1. Example Output for /news/ Endpoint
+Endpoint: /news/
+
+Request:
+GET http://localhost:8000/news/?query=technology
+
+Response:
+{
+  "articles": [
+    {
+      "title": "The Future of AI in Technology",
+      "date": "2024-10-29T12:34:00Z",
+      "source": "TechCrunch",
+      "content": "Artificial Intelligence is transforming industries around the world...",
+      "summary": "AI is revolutionizing the technology landscape, impacting industries from healthcare to finance. Key advancements include machine learning, natural language processing, and autonomous systems.",
+      "key_points": [
+        "AI is reshaping various sectors including healthcare and finance.",
+        "Machine learning and NLP are critical technologies driving innovation.",
+        "Autonomous systems are being increasingly adopted across industries."
+      ],
+      "sentiment": "Positive",
+      "topic": "Technology"
+    },
+    {
+      "title": "Big Tech’s Role in the AI Revolution",
+      "date": "2024-10-28T08:22:00Z",
+      "source": "Wired",
+      "content": "With major investments in AI, tech giants are positioning themselves...",
+      "summary": "Big tech companies are investing heavily in AI, aiming to lead the next wave of innovation. Key areas include cloud computing, data analytics, and AI ethics.",
+      "key_points": [
+        "Big tech firms are driving AI research and development.",
+        "AI ethics and governance are essential considerations.",
+        "Cloud computing and data analytics are central to AI growth."
+      ],
+      "sentiment": "Neutral",
+      "topic": "AI Industry Trends"
+    },
+    {
+      "title": "Advancements in Quantum Computing for AI",
+      "date": "2024-10-27T14:15:00Z",
+      "source": "MIT Technology Review",
+      "content": "Quantum computing has the potential to solve problems...",
+      "summary": "Quantum computing is emerging as a powerful tool for AI, with potential applications in problem-solving and predictive analysis.",
+      "key_points": [
+        "Quantum computing could accelerate AI model training.",
+        "Quantum algorithms enable complex problem-solving.",
+        "Future applications include predictive analysis and optimization."
+      ],
+      "sentiment": "Positive",
+      "topic": "Quantum Computing"
+    }
+  ]
+}
+
+
+
+2. Example Output for /trending/ Endpoint
+Endpoint: /trending/
+
+Request:
+GET http://localhost:8000/trending/
+
+
+Response:
+{
+  "topics": [
+    "Technology",
+    "Artificial Intelligence",
+    "Quantum Computing",
+    "Cybersecurity",
+    "Climate Change"
+  ]
+}
+
+
+

@@ -1,0 +1,16 @@
+
+---
+
+### `requirements.txt`
+
+```plaintext
+newsapi-python==0.2.6
+langchain==0.0.0
+openai==0.0.0
+fastapi==0.68.2
+uvicorn==0.15.0
+beautifulsoup4==4.10.0
+requests==2.26.0
+fastapi-cache2==0.1.0
+pytest==6.2.5
+docker==5.0.3
